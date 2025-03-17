@@ -16,15 +16,15 @@ const Hero = () => {
             I'm a{' '}
             <AnimatedText
               texts={[
-                'Web Developer',
-                'UI/UX Designer',
-                'Software Engineer'
+                'Cloud Engineer',
+                'DevOps Specialist',
+                'Infrastructure Architect'
               ]}
               className="text-foreground"
             />
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 animate-slide-down animation-delay-300">
-            Building digital experiences that blend form and function. I craft clean, intuitive, and performant websites that deliver exceptional user experiences.
+            Building resilient, scalable cloud infrastructure and automating deployment pipelines. I specialize in creating secure, efficient systems that enable businesses to focus on innovation.
           </p>
 
           <div className="flex flex-col md:flex-row items-start md:items-center gap-6 animate-slide-down animation-delay-400">

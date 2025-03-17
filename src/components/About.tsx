@@ -9,16 +9,16 @@ const About = () => {
           <div className="order-2 md:order-1">
             <span className="section-subheading animate-slide-right">About Me</span>
             <h2 className="section-heading animate-slide-right animation-delay-100">
-              Passionate about creating beautiful experiences
+              Cloud & DevOps Professional
             </h2>
             
             <div className="space-y-6 text-muted-foreground">
               <p className="animate-slide-right animation-delay-200">
-                I'm a versatile developer with 5+ years of experience building premium websites and applications. My approach combines technical expertise with an eye for design, resulting in solutions that are both functional and aesthetically pleasing.
+                I'm a skilled Cloud Computing and DevOps engineer with extensive experience in building and maintaining robust, scalable infrastructure. My approach combines automation, security best practices, and continuous integration to create efficient, resilient systems.
               </p>
               
               <p className="animate-slide-right animation-delay-300">
-                I enjoy transforming complex problems into simple, beautiful and intuitive designs. My aim is to create software that not only serves its purpose effectively but also provides a seamless user experience.
+                I specialize in transforming traditional infrastructure into modern, cloud-native architectures. My expertise lies in optimizing deployment pipelines, implementing infrastructure as code, and ensuring high availability and security across cloud environments.
               </p>
               
               <div className="pt-2 animate-slide-right animation-delay-400">
@@ -27,11 +27,12 @@ const About = () => {
                 </h3>
                 <ul className="space-y-2">
                   {[
-                    'Clean and maintainable code',
-                    'Responsive and accessible designs',
-                    'Performance optimized applications',
-                    'SEO best practices',
-                    'UI/UX focused development'
+                    'Cloud architecture and migration strategies',
+                    'DevOps implementation and optimization',
+                    'CI/CD pipeline automation',
+                    'Infrastructure as Code (IaC) solutions',
+                    'Security-focused cloud configurations',
+                    'Performance monitoring and optimization'
                   ].map((item, index) => (
                     <li key={index} className="flex items-start">
                       <CheckCircle size={18} className="mt-1 mr-2 flex-shrink-0 text-primary" />
@@ -48,8 +49,8 @@ const About = () => {
               <div className="aspect-square rounded-2xl overflow-hidden glass-card">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/5"></div>
                 <img
-                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
-                  alt="About me"
+                  src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+                  alt="Cloud Computing"
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />

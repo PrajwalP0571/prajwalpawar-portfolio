@@ -2,11 +2,13 @@
 import { 
   CheckCircle2, 
   Code2, 
-  Palette, 
+  Cloud, 
   Database, 
-  Globe, 
-  PenTool, 
-  Terminal 
+  Shield, 
+  GitBranch, 
+  Terminal, 
+  ServerCrash,
+  Network
 } from 'lucide-react';
 
 interface SkillCategoryProps {
@@ -43,34 +45,34 @@ const SkillCategory: React.FC<SkillCategoryProps> = ({
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Frontend',
+      title: 'Programming',
       icon: <Code2 size={20} className="text-primary" />,
-      skills: ['HTML/CSS', 'JavaScript (ES6+)', 'React', 'Vue.js', 'TypeScript', 'Next.js']
+      skills: ['Python', 'Bash', 'Shell Scripting', 'Java', 'SDLC Knowledge']
     },
     {
-      title: 'Backend',
+      title: 'Cloud Platforms',
+      icon: <Cloud size={20} className="text-primary" />,
+      skills: ['AWS (EC2, VPC, IAM, S3, RDS, Lambda, ECS, EKS)', 'Azure', 'GCP', 'IaC with Terraform']
+    },
+    {
+      title: 'DevOps',
+      icon: <GitBranch size={20} className="text-primary" />,
+      skills: ['Git & GitHub', 'Docker', 'Kubernetes', 'Jenkins', 'CI/CD Pipelines', 'Infrastructure as Code']
+    },
+    {
+      title: 'Monitoring & Logging',
+      icon: <ServerCrash size={20} className="text-primary" />,
+      skills: ['CloudWatch', 'Prometheus', 'Grafana', 'ELK Stack', 'Log Analysis', 'Performance Monitoring']
+    },
+    {
+      title: 'Security & Networking',
+      icon: <Shield size={20} className="text-primary" />,
+      skills: ['IAM', 'VPC Configuration', 'Security Groups', 'Load Balancers', 'NACLs', 'Network Architecture']
+    },
+    {
+      title: 'Troubleshooting',
       icon: <Terminal size={20} className="text-primary" />,
-      skills: ['Node.js', 'Express', 'Python', 'Django', 'GraphQL', 'REST API']
-    },
-    {
-      title: 'Database',
-      icon: <Database size={20} className="text-primary" />,
-      skills: ['MongoDB', 'PostgreSQL', 'MySQL', 'Redis', 'Firebase', 'Supabase']
-    },
-    {
-      title: 'Design',
-      icon: <Palette size={20} className="text-primary" />,
-      skills: ['Figma', 'Adobe XD', 'Responsive Design', 'UI/UX', 'Wireframing', 'Prototyping']
-    },
-    {
-      title: 'Tools',
-      icon: <PenTool size={20} className="text-primary" />,
-      skills: ['Git', 'Docker', 'Webpack', 'Vite', 'GitHub Actions', 'CI/CD']
-    },
-    {
-      title: 'Other',
-      icon: <Globe size={20} className="text-primary" />,
-      skills: ['SEO', 'Performance Optimization', 'Accessibility', 'Testing', 'PWA', 'Technical Writing']
+      skills: ['System Diagnostics', 'Issue Resolution', 'Debugging', 'Root Cause Analysis', 'Performance Optimization', 'Technical Documentation']
     }
   ];
 
@@ -81,7 +83,7 @@ const Skills = () => {
           <span className="section-subheading">My Expertise</span>
           <h2 className="section-heading">Skills & Technologies</h2>
           <p className="max-w-2xl mx-auto text-muted-foreground">
-            I continuously expand my technical toolkit to stay at the forefront of web development.
+            I specialize in cloud infrastructure, DevOps practices, and automation solutions to build resilient, scalable systems.
           </p>
         </div>
         

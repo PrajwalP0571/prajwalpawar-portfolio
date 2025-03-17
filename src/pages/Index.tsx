@@ -10,7 +10,7 @@ import Contact from '@/components/Contact';
 const Index = () => {
   useEffect(() => {
     // Set page title
-    document.title = "John Doe | Portfolio";
+    document.title = "John Doe | Cloud & DevOps Engineer";
   }, []);
 
   return (
