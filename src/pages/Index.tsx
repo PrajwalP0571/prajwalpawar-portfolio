@@ -11,7 +11,7 @@ import Contact from '@/components/Contact';
 const Index = () => {
   useEffect(() => {
     // Set page title
-    document.title = "John Doe | Cloud & DevOps Engineer";
+    document.title = "Prajwal Pawar | Cloud & DevOps Engineer";
   }, []);
 
   return (

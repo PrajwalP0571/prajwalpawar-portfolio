@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <div className="section-subheading animate-slide-down">Hello, my name is</div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tighter mb-4 animate-slide-down animation-delay-100">
-            John Doe
+            Prajwal Pawar
           </h1>
           <h2 className="text-2xl md:text-4xl font-medium text-muted-foreground mb-6 animate-slide-down animation-delay-200">
             I'm a{' '}
