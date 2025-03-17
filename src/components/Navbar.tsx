@@ -1,12 +1,13 @@
 
 import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Cloud } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
 
 const navLinks = [
   { name: 'Home', path: '#home' },
   { name: 'About', path: '#about' },
+  { name: 'Work', path: '#work' },
   { name: 'Projects', path: '#projects' },
   { name: 'Skills', path: '#skills' },
   { name: 'Contact', path: '#contact' },
@@ -41,9 +42,10 @@ const Navbar = () => {
         {/* Logo */}
         <a
           href="#home"
-          className="text-xl font-semibold tracking-tighter"
+          className="text-xl font-semibold tracking-tighter flex items-center gap-2"
         >
-          <span className="font-bold">John</span>Doe
+          <Cloud size={24} className="text-primary" />
+          <span className="font-bold">Prajwal</span>Pawar
         </a>
 
         {/* Desktop Menu */}
